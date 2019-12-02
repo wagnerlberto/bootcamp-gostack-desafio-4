@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "WagnerLBerto <wagnerlberto@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
