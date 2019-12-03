@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PostItem from './PostItem';
 
 class PostList extends Component{
- state = {
+  state = {
     posts: [
       {
         id: 1,
